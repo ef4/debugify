@@ -19,7 +19,7 @@ module.exports = (filename) ->
       combine.create().addFile(
         {sourceFile: filename, source: buffer}
         {line: prelude.split('\n').length - 1}
-      ).comment() #.replace('//#', '//@')
+      ).comment()
     )
     @queue(null)
   through(write, end)
