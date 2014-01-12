@@ -3,7 +3,7 @@ Debugify
 
 Debugify provides a [Browserify](http://browserify.org/) transform
 that grabs references to every module imported in your bundle, and
-exposes them for use in the console.
+exposes them for use in the browser console.
 
 It was inspired by
 [Requireify](https://github.com/johnkpaul/requireify), but I wanted to

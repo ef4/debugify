@@ -1,8 +1,8 @@
 {
   "name": "debugify",
-  "version": "1.0.0",
-  "main": "dist/transform.js",
-  "browser": "dist/client.js",
+  "version": "1.0.2",
+  "main": "lib/transform.js",
+  "browser": "lib/client.js",
   "description": "Exposes all browserify modules for console debugging",
   "repository": "http://github.com/ef4/debugify",
   "author": "Edward Faulkner <ef@alum.mit.edu>",
