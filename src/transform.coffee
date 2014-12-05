@@ -7,6 +7,9 @@ captureRequire = ->
     (_global.dbgreq ?= []).push(require)
 
 module.exports = (filename) ->
+  if /\.json$/i.test(filename)
+    return through()
+
   prelude = '(' + captureRequire.toString() + ')();'
   buffer = ''
 
